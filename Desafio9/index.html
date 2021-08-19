@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Ejercicio 8</title>
-<style media="screen" type="text/css">
-html, body {
-margin: 0;
-padding: 0;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+          box-sizing: border-box;  
+          margin: 0;
+          padding: 0;
+        }
+
+.titulo {
+    height: 50px;
+    color: white;
+    background-color: black;
 }
-ul.menu {
-list-style: none;
-margin: 0;
-padding: 0;
+.menu {
+    background-color: silver;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    
 }
-ul.menu li {
-background: olive;
-box-sizing: border-box;
-float: left;
-width: 25%;
-display: inline-block;
-}
-ul.menu li a {
-color: #FFF;
-display: block;
-padding: 10px;
-text-decoration: none;
-}
-ul.menu li a:hover {
-background: #000;
+.subtitulo {
+    background-color: white;
+    width: 75%;
+    float: right;;
+    padding: 20px;
 }
 
-.paragraph {
-    width:100%;
-}
-
-.hidden {
-background: blue;
-box-sizing: border-box;
-float: left;
+.footer {
+background-color: grey;
+text-align: center;
 width: 100%;
+color: white;;
 
-display: block;
 }
-</style>
+
+    </style>
 </head>
 <body>
-<ul class="menu">
-    <li><a href="#">Item-1</a></li>
-<li><a href="#">Item-2</a></li>
-<li><a href="#">Item-3</a></li>
-<li><a href="#"  class="hidden">Item-4</a></li>
-</ul>
-<div class="paragraph">    
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-aperiam omnis magni aut voluptas dignissimos, sunt quis at in ducimus
-quo, vitae ex ullam suscipit. Deleniti animi nulla eos culpa!</p>
-</div>
+
+    <div>
+        <h1 class="titulo">Título página</h1>
+    </div>
+
+    <div>
+    <div class="menu">
+             <div>
+            <h1 >Menú</h1>
+            </div>
+            <div>
+                <ul class="lista">
+                    <ol>Item 1</ol>
+                    <ol>Item 2</ol>
+                    <ol>Item 3</ol>
+                    <ol>Item 4</ol>
+                </ul>
+            </div>
+                </div>
+
+              <div class="subtitulo">
+            <div ><h2>Subtitulo</h2></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt asperiores repellat in, facere excepturi deserunt eligendi impedit velit reprehenderit vero similique optio magnam ex facilis quos neque inventore obcaecati.</p></div>
+        </div>
+        </div>
+    
+    <footer class="footer">
+        <h4>Todos los derechos reservados</h4>
+    </footer>
 </body>
 </html>

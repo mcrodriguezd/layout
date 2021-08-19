@@ -18,7 +18,6 @@ background: olive;
 box-sizing: border-box;
 float: left;
 width: 25%;
-display: inline-block;
 }
 ul.menu li a {
 color: #FFF;
@@ -29,19 +28,11 @@ text-decoration: none;
 ul.menu li a:hover {
 background: #000;
 }
-
-.paragraph {
-    width:100%;
-}
-
-.hidden {
-background: blue;
-box-sizing: border-box;
+.texto {
 float: left;
-width: 100%;
-
-display: block;
+clear: both;
 }
+
 </style>
 </head>
 <body>
@@ -49,12 +40,9 @@ display: block;
     <li><a href="#">Item-1</a></li>
 <li><a href="#">Item-2</a></li>
 <li><a href="#">Item-3</a></li>
-<li><a href="#"  class="hidden">Item-4</a></li>
 </ul>
-<div class="paragraph">    
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
 aperiam omnis magni aut voluptas dignissimos, sunt quis at in ducimus
 quo, vitae ex ullam suscipit. Deleniti animi nulla eos culpa!</p>
-</div>
 </body>
 </html>
